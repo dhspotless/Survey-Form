@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>GeeksForGeeks Survey Form!</h2>
+      <div>
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Enter your Name" />
+      </div>
+
+      <div>
+        <label for="Email">Email</label>
+        <input type="text" placeholder="Enter your Email" />
+      </div>
+      <div>
+        <label for="Age">Age</label>
+        <input type="text" placeholder="Enter your Age" />
+      </div>
+
+      <div>
+        <label for="role" class="label-role">
+          which option best describes you
+        </label>
+        <!-- drop down option -->
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
